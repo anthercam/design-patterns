@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 
-namespace DesignPatterns.SOLID_Principles
+namespace DesignPatterns
 {
-    public class SingleResponsibility
+    public class Program
     {
         public static void Main(string[] args)
         {

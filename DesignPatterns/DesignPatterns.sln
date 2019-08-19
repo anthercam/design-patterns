@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{A1950423-DEC7-4D2D-AC9D-094D28514FA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.SingleResponsibility", "DesignPatterns\1.SingleResponsibility.csproj", "{A1950423-DEC7-4D2D-AC9D-094D28514FA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLIDPrinciples", "SOLIDPrinciples", "{B7D1EEF7-C189-4375-8C99-A10D4BD5EC3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.OpenClosed", "OpenClosed\2.OpenClosed.csproj", "{CA9AB8D9-CA87-45E0-B441-FB2CE3903653}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,17 @@ Global
 		{A1950423-DEC7-4D2D-AC9D-094D28514FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1950423-DEC7-4D2D-AC9D-094D28514FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1950423-DEC7-4D2D-AC9D-094D28514FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9AB8D9-CA87-45E0-B441-FB2CE3903653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9AB8D9-CA87-45E0-B441-FB2CE3903653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9AB8D9-CA87-45E0-B441-FB2CE3903653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9AB8D9-CA87-45E0-B441-FB2CE3903653}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1950423-DEC7-4D2D-AC9D-094D28514FA4} = {B7D1EEF7-C189-4375-8C99-A10D4BD5EC3A}
+		{CA9AB8D9-CA87-45E0-B441-FB2CE3903653} = {B7D1EEF7-C189-4375-8C99-A10D4BD5EC3A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EDD410A-54B2-4734-81FE-C64B98E72B65}
